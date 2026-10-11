@@ -78,9 +78,10 @@ locally in `.env.local`, or as environment variables in the Vercel project.
 
 ## Outstanding items
 
-- **Brand logo** — `src/components/AspenLogo.tsx` is a placeholder lockup. Drop
-  the official asset at `public/aspen-logo.svg` and swap the component for an
-  `<Image />`.
+- **Brand logo** — `src/components/AspenLogo.tsx` uses the official PNG at
+  `public/aspen-logo.png`. The white footer version (`public/aspen-logo-white.png`)
+  was recoloured from it; swap in Aspen's own reversed logo, and an SVG of both,
+  if available.
 - **Typography** — DIN Next LT Pro is referenced first in the font stack, with
   Barlow as the free web fallback and Arial last. Self-host the licensed DIN
   files under `public/fonts/` to use the real brand face.
